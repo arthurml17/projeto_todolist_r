@@ -9,7 +9,7 @@ export default function FormLogin(){
     const [email, setEmail] = useState("");
     const [passowrd, setPass] = useState("");
 
-    return (
+    return ( 
         <Paper elevation={13} style={{padding:"2em", margin:"2em"}}>
             <div className="container">
                 <div className="container-login">
@@ -28,8 +28,8 @@ export default function FormLogin(){
                                 value={passowrd} 
                                 onChange={e => setPass(e.target.value)} 
                                 id="outlined-basic" label="password" variant="outlined" type='password' fullWidth 
-                                style={{marginTop:"1rem", marginBottom:"1rem"}
-                            } />
+                                style={{marginTop:"1rem", marginBottom:"1rem"}} 
+                            />
 
                             <Button variant="contained" fullWidth style={{marginTop:"1rem", marginBottom:"0.5rem", backgroundColor:"black"}}>Login</Button>
                             <Button variant="text" fullWidth style={{marginTop:"0.5rem", marginBottom:"1rem", color:"black", outlineColor:"black"}}>Create a account</Button>
